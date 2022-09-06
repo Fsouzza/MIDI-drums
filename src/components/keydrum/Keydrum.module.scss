@@ -1,0 +1,27 @@
+.keyboard{
+  align-items: center;
+  background-color: rgb(112, 14, 205);
+  border: none;
+  border-radius: 4px;
+  color: #f0f0f0;
+  cursor: pointer;
+  display: flex;
+  font-weight: 400;
+  height: 120px;
+  justify-content: center;
+  padding: 2rem;
+  text-transform: uppercase;
+  width: 120px;
+  &:hover, &:focus{
+    box-shadow: inset 6px 6px 14px rgba(92, 50, 122, 0.8), inset -6px -6px 14px rgba(92, 50, 122, 0.8);
+    color: #300950;
+    font-weight: 500;
+    outline: none;
+  }
+  &:active{
+    background-color: #9646EF;
+    border: none;
+    box-shadow: 0 0 6px #702ebb, 0 0 30px #702ebb, 0 0 40px #702ebb;
+    outline: none;
+  }
+}

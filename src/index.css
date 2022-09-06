@@ -1,0 +1,25 @@
+:root {
+  --cinza: #aaa;
+  --vermelha: #e93d50;
+  --vermelha-escura: #af303f;
+  --branca: #fff;
+  --luz: rgb(229, 255, 0);
+}
+
+body{
+  box-sizing: border-box;
+}
+
+.App {
+  align-items: center;
+  background-image: url('./assets/img/drum.png');
+  background-repeat: no-repeat;
+  background-color:#2F374C;
+  background-position: center;
+  color: var(--branca);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}

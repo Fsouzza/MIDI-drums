@@ -1,0 +1,42 @@
+
+
+.midi{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #262626;
+  filter: drop-shadow(12px 12px 10px rgba(0,0,0,.6));
+  gap: 3rem;
+  justify-content: center;
+  padding: 3rem;
+  width: 450px;
+  span{
+    font-weight: bold;
+  }
+  h1{
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  &__titulo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    div{
+      background: linear-gradient(60deg, transparent, transparent, rgb(112, 14, 205));
+      border-radius: 10%;
+      color: #efefef;
+      padding: .5rem;
+    }
+  }
+  &__keys{
+    align-items: center;
+    background-color: #252525;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem .5rem;
+  }
+}
