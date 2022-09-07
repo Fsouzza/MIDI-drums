@@ -12,7 +12,10 @@
   padding: 2rem;
   text-transform: uppercase;
   width: 120px;
-  &:hover, &:focus{
+  &:hover{
+    background-color: rgb(128, 44, 206);
+  }
+  &:focus{
     box-shadow: inset 6px 6px 14px rgba(92, 50, 122, 0.8), inset -6px -6px 14px rgba(92, 50, 122, 0.8);
     color: #300950;
     font-weight: 500;
